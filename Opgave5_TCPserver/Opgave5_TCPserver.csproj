@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ClassLibrary">
+      <HintPath>..\..\..\Opgave 1 Csharp og Unit tests\ClassLibrary\ClassLibrary\bin\Debug\netstandard2.1\ClassLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
